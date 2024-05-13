@@ -6,7 +6,7 @@ const HeaderDiv = styled.div`
   grid-auto-flow: column;
   gap: 3rem;
   padding: 1rem;
-  border-bottom: .5rem solid var(--green);
+  border-bottom: .2rem solid var(--green);
 
   & img {
     justify-self: start;
