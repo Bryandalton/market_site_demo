@@ -3,6 +3,10 @@ import { Web, Facebook, Linkedin, Twitter } from "../assets/icons/index";
 
 const FootDiv = styled.div`
   margin: .25rem;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3rem;
+  padding: 1rem;
   border-radius: 2rem;
   background: var(--green);
 `;

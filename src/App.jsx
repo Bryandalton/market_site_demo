@@ -1,11 +1,19 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import {content} from "./components/contentData";
+import { content } from "./components/contentData";
 import ContentCard from "./components/ContentCard";
 import "./App.css";
+import styled from "styled-components";
 
-console.log(content)
+console.log(content);
+
+const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 function App() {
   function renderContent() {
@@ -30,8 +38,7 @@ function App() {
     <>
       <Header />
       <h1>lorumipsumdolor</h1>
-      <div>{renderContent()}</div>
-
+      <ContentContainer>{renderContent()}</ContentContainer>
       <Footer />
     </>
   );
