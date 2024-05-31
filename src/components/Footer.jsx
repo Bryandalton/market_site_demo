@@ -2,13 +2,17 @@ import styled from "styled-components";
 import { Web, Facebook, Linkedin, Twitter } from "../assets/icons/index";
 
 const FootDiv = styled.div`
-  margin: .25rem;
+  margin: 0.25rem;
   display: grid;
   grid-auto-flow: column;
   gap: 3rem;
   padding: 1rem;
   border-radius: 2rem;
   background: var(--green);
+
+  & div {
+    width: 18rem;
+  }
 `;
 const MediaButton = styled.button`
   background: none;
@@ -23,7 +27,12 @@ export default function Footer() {
   return (
     <>
       <FootDiv>
-        <div>About US</div>
+        <div>
+          About US: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+          neque nam totam, et sapiente ducimus placeat ad omnis commodi, unde
+          similique saepe aspernatur quas, illum vero beatae temporibus aperiam
+          tempora.
+        </div>
         <div>
           <MediaButton>
             <img src={Facebook}></img>
