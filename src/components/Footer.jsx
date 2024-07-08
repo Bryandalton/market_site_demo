@@ -23,6 +23,10 @@ const MediaButton = styled.button`
   }
 `;
 
+const MediaContainer = styled.div`
+  padding-left: 5rem;
+`;
+
 export default function Footer() {
   return (
     <>
@@ -33,7 +37,7 @@ export default function Footer() {
           similique saepe aspernatur quas, illum vero beatae temporibus aperiam
           tempora.
         </div>
-        <div>
+        <MediaContainer>
           <MediaButton>
             <img src={Facebook}></img>
           </MediaButton>
@@ -46,7 +50,7 @@ export default function Footer() {
           <MediaButton>
             <img src={Web}></img>
           </MediaButton>
-        </div>
+        </MediaContainer>
         <form type="text">Email</form>
       </FootDiv>
     </>

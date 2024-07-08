@@ -6,7 +6,7 @@ const HeaderDiv = styled.div`
   grid-auto-flow: column;
   gap: 3rem;
   padding: 1rem;
-  border-bottom: .35rem solid var(--green);
+  border-bottom: 0.35rem solid var(--green);
 
   & img {
     justify-self: start;
@@ -15,7 +15,7 @@ const HeaderDiv = styled.div`
   }
 
   & h1 {
-    justify-self:center;
+    justify-self: center;
     margin: 0;
     font-size: 4rem;
   }
